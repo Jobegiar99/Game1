@@ -10,7 +10,8 @@
         "7ee4cf3a-0d42-4951-b05d-ad89350493d4",
         "dc8c10b1-aebb-4455-a1dd-5275462fb332",
         "f6af9f05-9938-41f9-a56e-540b4e002359",
-        "5672b368-d053-4d70-9b9a-a910bbe09800"
+        "5672b368-d053-4d70-9b9a-a910bbe09800",
+        "d8a7fb6e-ad4e-47ba-b54b-ed80f043cd67"
     ],
     "filterType": "GMObject",
     "folderName": "UI\/Game Control",

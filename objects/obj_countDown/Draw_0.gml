@@ -6,5 +6,8 @@ if (time>0){
 }else{
 	draw_text(room_width/2-50,room_height/2-200,"GO!");	
 	audio_play_sound(snd_gong,0,false);
+	obj_progressBar.barReduction=(obj_progressBar.width/obj_progressBar.roundTime)/100;
+	obj_progressBar.ticks=(obj_progressBar.barReduction*1800);
+	obj_progressBar.alarm[0]=obj_progressBar.ticks;
 	instance_destroy();
 }

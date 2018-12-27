@@ -162,7 +162,7 @@
             "Key": "487ef705-21b1-4ae1-a224-bc7e4d040c8c",
             "Value": {
                 "id": "4cf242f3-4c57-437a-9d16-127221f7f35e",
-                "resourcePath": "rooms\\main_game\\main_game.yy",
+                "resourcePath": "rooms\\room_game\\room_game.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -276,6 +276,14 @@
                 "id": "f5e38f02-4d81-4c63-9eb3-7f372f29f25e",
                 "resourcePath": "tilesets\\ts_background\\ts_background.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "762fe170-43b3-4a35-8246-da2b5dc3413e",
+            "Value": {
+                "id": "64a6b6fa-be9f-4b55-9fae-4e086ad3a714",
+                "resourcePath": "rooms\\room_store\\room_store.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -431,6 +439,14 @@
             }
         },
         {
+            "Key": "c7cb2be3-77a8-4998-8ffe-2f704d2db505",
+            "Value": {
+                "id": "18e19b40-ea62-44e1-9743-8967fd7c952a",
+                "resourcePath": "views\\487ef705-21b1-4ae1-a224-bc7e4d040c8c-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "be396793-259c-424a-892d-22903ea07cba",
@@ -460,6 +476,14 @@
                 "id": "47a3ea93-4d72-435b-b165-eacde8c1eae2",
                 "resourcePath": "sprites\\spr_gun\\spr_gun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d8a7fb6e-ad4e-47ba-b54b-ed80f043cd67",
+            "Value": {
+                "id": "f90a6b83-9f29-4bab-a976-5771f1245fa6",
+                "resourcePath": "objects\\obj_progressBar\\obj_progressBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
