@@ -1,5 +1,5 @@
 //Player Stats
-knockback=2;
+knockback=5;
 bulletDamage=1;
 bulletSpeed=10;
 playerAttackSpeed=50;
@@ -8,8 +8,22 @@ lives=5;
 //Slimes
 slimeLife=3;
 slimeSpeed=1;
-slimeDamage=5;
+slimeDamage=1;
 slimeSpawn=180;
+//whirlx
+whirlxLife=4;
+whirlxSpeed=0.5;
+whirlxSpawn=600;
+whirlxDamage=1;
 //Round
 roundNumber=1;
 currentRoundTime=1800;
+
+//Store
+damageCost=15;
+attackSpeedCost=10;
+bulletSpeedCost=20;
+knockbackCost=20;
+HealCost=100;
+//Game control
+pause=false;
