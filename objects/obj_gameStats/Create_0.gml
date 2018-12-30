@@ -4,6 +4,7 @@ bulletDamage=1;
 bulletSpeed=10;
 playerAttackSpeed=50;
 money=0;
+isAlive=true;
 lives=5;
 //Slimes
 slimeLife=3;
@@ -16,7 +17,7 @@ whirlxSpeed=0.5;
 whirlxSpawn=600;
 whirlxDamage=1;
 //Round
-roundNumber=1;
+roundNumber=6;
 currentRoundTime=1800;
 
 //Store
@@ -27,3 +28,7 @@ knockbackCost=20;
 HealCost=100;
 //Game control
 pause=false;
+
+
+
+alarm[0]=0;
