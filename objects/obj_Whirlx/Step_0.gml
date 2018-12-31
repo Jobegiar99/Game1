@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (control<180 && control>=0 && life>0){
-x+=speedX;
-y-=speedY;
+	x+=speedX;
+	y-=speedY;
+
 }else if (control>180 && life>0){
 	if (spriteChange){
 		sprite_index=spr_whirlx;
@@ -21,6 +22,6 @@ y-=speedY;
 		direction=point_direction(x,y,obj_altar.x,obj_altar.y-33);	
 		speed=spd;
 	}
-	
 }
+
 control++;

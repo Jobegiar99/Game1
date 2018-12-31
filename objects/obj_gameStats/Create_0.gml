@@ -17,8 +17,8 @@ whirlxSpeed=0.5;
 whirlxSpawn=600;
 whirlxDamage=1;
 //Round
-roundNumber=6;
-currentRoundTime=1800;
+roundNumber=10;
+currentRoundTime=1;
 
 //Store
 damageCost=15;

@@ -5,7 +5,7 @@ if (life<=0){
 	sprite_index=spr_whirlx_death;
 	instance_create_layer(x,y,"layer_UI",obj_earnCoin);
 	with (obj_money){
-		money+=irandom_range(2,4);	
+		money+=irandom_range(3,5);	
 	}
 	alarm[0]=49;
 }
