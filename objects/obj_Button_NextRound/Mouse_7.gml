@@ -37,5 +37,6 @@ switch (obj_gameStats.roundNumber){
 		kX=random(room_width);
 		ky=random_range(200,500);
 		instance_create_layer(kX,ky,"layer_bullets",obj_Kepqchi_Dust);
+		instance_create_layer(x,y,"layer_UI",obj_bossLife);
 		alarm[0]=20;
 }

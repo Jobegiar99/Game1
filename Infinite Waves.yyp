@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "9c01af7d-0451-4486-83a5-f49685407834",
+            "Value": {
+                "id": "01454a5d-f41f-4ea3-a705-65e39a217a5e",
+                "resourcePath": "objects\\obj_kepqchi_shadow\\obj_kepqchi_shadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9ce4d465-c59b-41b3-aef9-4b1ee9431d9d",
             "Value": {
                 "id": "46d025c9-6667-491a-b1bb-368ed63cb731",

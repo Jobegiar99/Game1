@@ -3,7 +3,7 @@
 if (obj_money.money>=obj_gameStats.knockbackCost){
 	obj_money.money-=obj_gameStats.knockbackCost;
 	obj_gameStats.knockbackCost*=2;
-	obj_gameStats.knockback+=0.5;
+	obj_gameStats.knockback+=7.5;
 	obj_Button_Knockback.visible=false;
 	alarm[0]=1;
 }

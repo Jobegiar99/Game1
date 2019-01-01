@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (keyboard_check_pressed(vk_escape)){
+	game_end();
+}
 if (lives=0 && isAlive){
 	obj_altar_crystal.sprite_index=spr_crystal_destruction;
 	alarm[0]=40;

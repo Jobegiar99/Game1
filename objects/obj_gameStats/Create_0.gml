@@ -1,3 +1,4 @@
+
 //Player Stats
 knockback=5;
 bulletDamage=1;
@@ -17,8 +18,8 @@ whirlxSpeed=0.5;
 whirlxSpawn=600;
 whirlxDamage=1;
 //Round
-roundNumber=10;
-currentRoundTime=1;
+roundNumber=1;
+currentRoundTime=1800;
 
 //Store
 damageCost=15;
