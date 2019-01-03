@@ -18,7 +18,7 @@ whirlxSpeed=0.5;
 whirlxSpawn=600;
 whirlxDamage=1;
 //Round
-roundNumber=1;
+roundNumber=0;
 currentRoundTime=1800;
 
 //Store

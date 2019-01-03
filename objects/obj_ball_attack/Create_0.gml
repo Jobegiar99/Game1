@@ -16,4 +16,5 @@ if (obj_kepqchi.x>=room_width/2){
 }else if (obj_kepqchi.x<room_width/2){
 	increaseAngle=-1;
 }
+kepAlive=true;
 speed=spd;

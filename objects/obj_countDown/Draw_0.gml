@@ -11,10 +11,10 @@ if (time>0){
 	obj_progressBar.alarm[0]=obj_progressBar.ticks;
 	
 	switch (obj_gameStats.roundNumber){
-		case 1: case 2: case 3: case 4: case 5:
+		case 0: case 1: case 2: case 3: case 4:
 		round1_5_bar();
 		break;
-		case 6: case 7: case 8: case 9: case 10:
+		case 5: case 6: case 7: case 8: case 9:
 		round6_10_bar();
 		break;
 	}

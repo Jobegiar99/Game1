@@ -1,5 +1,6 @@
 spd=obj_gameStats.slimeSpeed;
 spdY=10;
+alive=true;
 life=obj_gameStats.slimeLife;
 if (x==-40){
 	knockback=obj_gameStats.knockback;

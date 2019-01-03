@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (life>250){
+if (life>100){
 	if (teleport>0){
 		instance_create_layer(kx,ky,"layer_bullets",obj_Kepqchi_Dust);
 		image_alpha=0;
@@ -23,7 +23,7 @@ if (life>250){
 		alarm[1]=60;
 		teleport=3;
 	}
-}else if (life<=250 && life >50){
+}else if (life<=100 && life >30){
 	if (teleport>0){
 		instance_create_layer(kx,ky,"layer_bullets",obj_Kepqchi_Dust);
 		image_alpha=0;

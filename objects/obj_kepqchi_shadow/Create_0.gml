@@ -5,5 +5,5 @@ y=random_range(300,600);
 alarm[0]=55;
 alarm[1]=0;
 attackBall=false;
-numberOfBalls=2;
+numberOfBalls=1;
 ballCooldown=30;
