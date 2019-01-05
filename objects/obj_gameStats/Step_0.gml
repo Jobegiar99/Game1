@@ -29,7 +29,7 @@ switch(obj_gameStats.roundNumber){
 		break;
 	case 10:
 		if (!instance_exists(obj_kepqchi) && !instance_exists(obj_ball_attack) &&
-			!instance_exists(obj_spawner_r6_10) && obj_money.money>400){
+			!instance_exists(obj_spawner_r6_10) && isKepAlive==false){
 			pause=true;
 			roundNumber++;
 			showStore();

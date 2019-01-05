@@ -18,8 +18,8 @@ whirlxSpeed=0.5;
 whirlxSpawn=600;
 whirlxDamage=1;
 //Round
-roundNumber=0;
-currentRoundTime=1800;
+roundNumber=9;
+currentRoundTime=1;
 
 //Store
 damageCost=15;
@@ -29,6 +29,8 @@ knockbackCost=20;
 HealCost=100;
 //Game control
 pause=false;
+//Kepqchi
+isKepAlive=true;
 
 
 

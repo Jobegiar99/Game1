@@ -5,3 +5,12 @@ if (obj_gameStats.pause==false){
 	}
 }
 cooldown--;
+
+if (obj_gameStats.roundNumber>10 && obj_gameStats.roundNumber<=20){
+	if (keyboard_check_released(ord("S"))){
+		y=	820;
+	}
+	if (keyboard_check_released(ord("W"))){
+		y=obj_altar.y-123;
+	}
+}

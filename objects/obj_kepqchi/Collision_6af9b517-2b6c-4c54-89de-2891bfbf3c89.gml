@@ -6,5 +6,6 @@ if (life<=0){
 		money+=400;	
 	}
 	obj_ball_attack.sprite_index=spr_Kepqchi_Dust;
+	obj_gameStats.isKepAlive=false;
 	instance_destroy();
 }

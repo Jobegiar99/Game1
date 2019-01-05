@@ -8,5 +8,5 @@ if (notLoading){
 	volume+=0.009;
 }else{
 	audio_sound_gain(snd_main_menu,volume,100);
-	volume-=0.048;
+	volume-=0.059;
 }

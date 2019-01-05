@@ -9,7 +9,7 @@ if (time>0){
 	obj_progressBar.barReduction=((obj_progressBar.width/obj_progressBar.roundTime)/1000)*2;
 	obj_progressBar.ticks=1;
 	obj_progressBar.alarm[0]=obj_progressBar.ticks;
-	
+	obj_Button_NextRound.notClicked=true;
 	switch (obj_gameStats.roundNumber){
 		case 0: case 1: case 2: case 3: case 4:
 		round1_5_bar();

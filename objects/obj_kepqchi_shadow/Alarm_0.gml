@@ -5,6 +5,7 @@ if (attackBall=false){
 	attackBall=true;
 }
 if (numberOfBalls>0){
+	audio_play_sound(snd_ball_spawn,0,false);
 	instance_create_layer(x,y-110,"layer_bossAttack",obj_ball_attack);
 	numberOfBalls--;
 	alarm[0]=ballCooldown;
